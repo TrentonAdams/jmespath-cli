@@ -1,0 +1,16 @@
+{
+  "name": "jmespath-cli",
+  "version": "1.0.0",
+  "description": "jmespath cli based on jmespath node library",
+  "main": "jmespath.js",
+  "repository": "https://github.com/TrentonAdams/jmespath-cli",
+  "author": "Trenton D. Adams <trenton.d.adams+jmespath@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "package": "pkg --out-path build/ jmespath.js "
+  },
+  "dependencies": {
+    "commander": "^4.1.0",
+    "jmespath": "^0.15.0"
+  }
+}
