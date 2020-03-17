@@ -7,7 +7,7 @@
   "author": "Trenton D. Adams <trenton.d.adams+jmespath@gmail.com>",
   "license": "Apache-2.0",
   "scripts": {
-    "package": "pkg --out-path build/ jmespath.js "
+    "package": "pkg -t node12 --out-path build/ jmespath.js && echo 'Packaging COMPLETE...' && ls -ltr build/ "
   },
   "dependencies": {
     "commander": "^4.1.0",
