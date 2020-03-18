@@ -12,5 +12,6 @@ Binaries can be packaged with node included by running the following on
 your platform of choice
 
 ```bash
+yarn # installs deps
 yarn run package
 ```
